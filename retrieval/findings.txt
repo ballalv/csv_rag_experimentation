@@ -1,0 +1,248 @@
+Madhura: 
+Top K Retrival and Chunk Size Experiment Findings
+K Experiment
+Query 1
+
+Main Question:
+What indication is ZEPATIER used for?
+
+Answer: Hepatitis C
+
+Tested K = 1:
+Got the relevant answer at Rank 1. The retrieved chunk was correct.
+
+Tested K = 3:
+Got the correct answer at Rank 1 and similar chunks at the other ranks. The retrieved chunks contained the same repeated information. Increasing K increased the context window but did not add additional useful information.
+
+Tested K = 5:
+Got the correct answer at Rank 1. The other four retrieved results contained the same information and did not provide additional useful information.
+
+Follow-up Question
+
+What business unit is associated with ZEPATIER?
+
+Answer: Infectious Disease
+
+Tested K = 1:
+The expected answer was not present in the Top-1 result. The retrieved chunk was not sufficient to answer the question.
+
+Tested K = 3:
+The result was similar to K=1. Increasing Top-K did not provide the correct answer.
+
+Tested K = 5:
+The result was similar to K=3. Increasing K still did not provide the correct answer.
+
+Observation
+
+Increasing K was not enough to retrieve the required information. The retrieved chunks were related to the product but did not contain the required Business Unit field.
+
+Query 2
+Main Question
+
+Which product is used for HPV Prevention?
+
+Answer: GARDASIL 9
+
+Tested Top-K = 1:
+Got the correct answer at Rank 1.
+
+Tested Top-K = 3:
+All three ranks contained the same answer and similar chunks.
+
+Tested Top-K = 5:
+Got the correct result within the Top-5 results, but increasing Top-K did not provide additional useful information.
+
+Follow-up Question
+
+What is the business unit and region associated with GARDASIL 9?
+
+Answer: Vaccines, West
+
+Tested Top-K = 1:
+Rank 1 contained the Business Unit but not the Region. Therefore, the retrieved information was insufficient.
+
+Tested Top-K = 3:
+The result was similar to Top-K=1. It did not contain additional useful information and still provided only the Business Unit.
+
+Tested Top-K = 5:
+Top-K=5 also returned similar information. Increasing K did not provide the expected Region information.
+
+Observation
+
+Increasing Top-K did not provide the missing information. This suggests that simply increasing K may not solve the retrieval problem. The issue may also be related to the chunk size or how the information is split across chunks.
+
+Query 3
+Main Question
+
+Which product is used for Renal Cell Carcinoma?
+
+Answer: WELIREG
+
+Tested Top-K = 1:
+Retrieved irrelevant information and did not provide the expected answer.
+
+Tested Top-K = 3:
+Increasing K did not provide the expected answer.
+
+Tested Top-K = 5:
+Increasing K added more irrelevant information but still did not provide the expected answer.
+
+Follow-up Question
+
+What is the business unit associated with WELIREG?
+
+Answer: Oncology
+
+Tested Top-K = 1:
+The retrieved result did not contain the exact answer.
+
+Tested Top-K = 3:
+Increasing K did not provide the correct answer. Instead, it added more irrelevant information, which could increase the context size later without providing useful information.
+
+Tested Top-K = 5:
+Increasing K added more irrelevant chunks and did not provide the correct answer.
+
+Current Observation from K Experiment
+
+Some retrieved chunks are semantically related to the query but do not contain all the fields required to answer the question.
+
+Increasing Top-K does not always improve retrieval quality. In some cases, it only adds repeated or irrelevant information.
+
+This suggests that retrieval quality may also depend on chunk size and context completeness, not only Top-K.
+
+Next Experiment — Chunk Size Experiment
+
+Keep Top-K fixed at 3 as a working value.
+
+Test the following chunk sizes:
+
+100
+200
+300
+500
+1000
+
+Use 10% overlap for each chunk size.
+
+The purpose of this experiment is to check whether larger chunks provide more complete context for the query.
+
+Chunk Size Experiment
+Query
+
+Which product is used for Renal Cell Carcinoma?
+
+Expected Answer: WELIREG
+
+Reason for Selecting This Query
+
+In the current K experiment, the retrieved chunks contained limited or irrelevant information. Therefore, the next step was to increase the chunk size and check whether a larger chunk could provide the complete answer.
+
+Chunk Size = 100
+
+The retriever found the indication but not the product name.
+
+Relevant? → Yes
+Complete? → No
+
+Chunk Size = 200
+
+The retriever provided additional context but still did not retrieve the product name.
+
+Therefore, increasing the chunk size from 100 to 200 did not resolve the problem.
+
+Chunk Size = 300
+
+The retrieved chunk contained both the product name and the indication:
+
+WELIREG + Renal Cell Carcinoma
+
+This resulted in successful retrieval.
+
+Chunk Size = 500
+
+The retrieved result contained the product name and indication. However, compared with chunk size 300, it did not provide additional useful information.
+
+Chunk Size = 1000
+
+The required information was retrieved, but the result contained unnecessary and repeated content.
+
+Chunk Size Experiment — Short Findings
+Observation 1
+
+For the Renal Cell Carcinoma question, larger chunks worked better.
+
+Chunk 100 → Product name WELIREG was missing.
+Chunk 200 → Product name was still missing.
+Chunk 300 → WELIREG and Renal Cell Carcinoma were retrieved together.
+
+Therefore, for this query, chunk size 300 worked better than 100 and 200.
+
+Observation 2
+
+For the WELIREG business-unit question, increasing the chunk size did not help.
+
+I tested:
+
+100 → 200 → 300 → 500 → 1000
+
+But I still did not retrieve:
+
+Business_Unit: Oncology
+
+Therefore, simply increasing the chunk size did not solve this retrieval problem.
+
+Observation 3
+
+For the quantity and sales-value question, none of the tested chunk sizes provided the required fields.
+
+I tested:
+
+100 → 200 → 300 → 500 → 1000
+
+But I could not retrieve:
+
+Quantity
+Sales_Value
+
+Therefore, increasing the chunk size alone was not enough to solve this retrieval problem.
+
+Chunk Size Comparison
+Query 1
+
+Which product is used for Renal Cell Carcinoma?
+
+Chunk Size	Result
+100	❌
+200	❌
+300	✅
+500	✅
+1000	✅
+Query 2
+
+What is the business unit associated with WELIREG?
+
+Chunk Size	Result
+100	❌
+200	❌
+300	❌
+500	❌
+1000	❌
+Query 3
+
+What is the quantity and sales value for WELIREG?
+
+Chunk Size	Result
+100	❌
+200	❌
+300	❌
+500	❌
+1000	❌
+Overall Finding
+
+The experiments show that Top-K and chunk size both affect retrieval quality, but increasing either one does not always improve the result.
+
+For the Renal Cell Carcinoma query, chunk size 300 was the smallest tested configuration that retrieved the complete required information.
+
+However, the Business Unit and Quantity/Sales Value queries remained incomplete even when the chunk size was increased to 1000.
+
+Therefore, chunk size and Top-K alone are not sufficient to solve all retrieval problems.

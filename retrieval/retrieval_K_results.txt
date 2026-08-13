@@ -1,0 +1,162 @@
+Query: What indication is ZEPATIER used for?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 1
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 289}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+Query: What indication is ZEPATIER used for?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 289}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 6, 'source': './data/pharma_sales.csv'}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 264, 'source': './data/pharma_sales.csv'}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+Query: What indication is ZEPATIER used for?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 5
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 289}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 6, 'source': './data/pharma_sales.csv'}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 94, 'source': './data/pharma_sales.csv'}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+
+--- Result 4 ---
+Metadata: {'row': 146, 'source': './data/pharma_sales.csv'}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+
+--- Result 5 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 264}
+Content:
+ZEPATIER is used in Hepatitis C. Clinical discussion covered approved indications, patient
+
+--------------------------------------------------------------------------------
+Query: What business unit is associated with ZEPATIER?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 1
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 202}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+Query: What business unit is associated with ZEPATIER?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 42}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 202}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 2}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+Query: What business unit is associated with ZEPATIER?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 5
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 42, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 202}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 2}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+
+--- Result 4 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 6}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------
+
+--- Result 5 ---
+Metadata: {'row': 61, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: ZEPATIER is used in
+
+--------------------------------------------------------------------------------

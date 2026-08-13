@@ -1,4 +1,18 @@
-﻿.venv/
+﻿# Virtual environment
+.venv/
+
+# Environment variables / API keys
+.env
+
+# IDE
 .idea/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Logs
+logs/
+
+# ChromaDB
+chroma_db/

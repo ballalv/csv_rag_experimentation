@@ -1,0 +1,405 @@
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 26}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 81}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 237}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 200
+Chunk Overlap: 20
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 186, 'source': './data/pharma_sales.csv'}
+Content:
+used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 71}
+Content:
+used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 227, 'source': './data/pharma_sales.csv'}
+Content:
+used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion
+
+--------------------------------------------------------------------------------
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 300
+Chunk Overlap: 30
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 71, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 140, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 164, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor
+
+--------------------------------------------------------------------------------
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 500
+Chunk Overlap: 50
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 26}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior,
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 80, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior,
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 81, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior,
+
+--------------------------------------------------------------------------------
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 1000
+Chunk Overlap: 100
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 129, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 235}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 80}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 73}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 151}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 260, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 200
+Chunk Overlap: 20
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 173, 'source': './data/pharma_sales.csv'}
+Content:
+behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 208}
+Content:
+behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 151}
+Content:
+behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 300
+Chunk Overlap: 30
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 260, 'source': './data/pharma_sales.csv'}
+Content:
+customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 261}
+Content:
+customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 208}
+Content:
+customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 500
+Chunk Overlap: 50
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 260}
+Content:
+Notes: Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 263}
+Content:
+Notes: Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 294, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 1000
+Chunk Overlap: 100
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 34}
+Content:
+Notes: Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 151, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 260, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL Disease. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future
+
+--------------------------------------------------------------------------------
+Query: What is the quantity and sales value for WELIREG?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 73, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 151, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 260, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+Query: What is the quantity and sales value for WELIREG?
+Chunk Size: 200
+Chunk Overlap: 20
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 16}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 67}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 299, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician
+
+--------------------------------------------------------------------------------
+Query: What is the quantity and sales value for WELIREG?
+Chunk Size: 300
+Chunk Overlap: 30
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 1, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 102}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 237}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor
+
+--------------------------------------------------------------------------------
+Query: What is the quantity and sales value for WELIREG?
+Chunk Size: 500
+Chunk Overlap: 50
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 105}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior,
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 160, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior,
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 235, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior,
+
+--------------------------------------------------------------------------------
+Query: What is the quantity and sales value for WELIREG?
+Chunk Size: 1000
+Chunk Overlap: 100
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 16}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 85, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 186}
+Content:
+Notes: Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant promotion, and future engagement opportunities. Territory insights included prescription trends, customer behavior, business opportunities, formulary discussions, regional planning, call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility, efficacy, safety, monitoring, treatment pathway, and physician education. Sales discussion included customer questions, objections, market access, competitor comparison, follow-up planning, CRM updates, scientific literature sharing, compliant
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,351 @@
+Query: Which product is used for HPV Prevention?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 1
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 168}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+Query: Which product is used for HPV Prevention?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 82}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 168}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 178, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+Query: Which product is used for HPV Prevention?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 5
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 82, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 168}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 178, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+
+--- Result 4 ---
+Metadata: {'row': 203, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+
+--- Result 5 ---
+Metadata: {'row': 218, 'source': './data/pharma_sales.csv'}
+Content:
+Notes: Product Overview: GARDASIL 9 is used in HPV Prevention. Clinical discussion covered approved
+
+--------------------------------------------------------------------------------
+Query: What is the business unit and region associated with GARDASIL 9?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 1
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 89, 'source': './data/pharma_sales.csv'}
+Content:
+Transaction_ID: TXN00090
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+Query: What is the business unit and region associated with GARDASIL 9?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 89, 'source': './data/pharma_sales.csv'}
+Content:
+Transaction_ID: TXN00090
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 293}
+Content:
+Transaction_ID: TXN00294
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 82, 'source': './data/pharma_sales.csv'}
+Content:
+Transaction_ID: TXN00083
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+Query: What is the business unit and region associated with GARDASIL 9?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 5
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 89}
+Content:
+Transaction_ID: TXN00090
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 293, 'source': './data/pharma_sales.csv'}
+Content:
+Transaction_ID: TXN00294
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 82}
+Content:
+Transaction_ID: TXN00083
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+
+--- Result 4 ---
+Metadata: {'row': 0, 'source': './data/pharma_sales.csv'}
+Content:
+Transaction_ID: TXN00001
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+
+--- Result 5 ---
+Metadata: {'row': 288, 'source': './data/pharma_sales.csv'}
+Content:
+Transaction_ID: TXN00289
+Product: GARDASIL 9
+Business_Unit: Vaccines
+Indication: HPV Prevention
+
+--------------------------------------------------------------------------------
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 1
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 237, 'source': './data/pharma_sales.csv'}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 26, 'source': './data/pharma_sales.csv'}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 81}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 237, 'source': './data/pharma_sales.csv'}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+Query: Which product is used for Renal Cell Carcinoma?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 5
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 26}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 80}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 81, 'source': './data/pharma_sales.csv'}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 4 ---
+Metadata: {'row': 85, 'source': './data/pharma_sales.csv'}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+
+--- Result 5 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 237}
+Content:
+in Renal Cell Carcinoma. Clinical discussion covered approved indications, patient eligibility,
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 1
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 260}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 3
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 73}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'row': 151, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'row': 260, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+Query: What is the business unit associated with WELIREG?
+Chunk Size: 100
+Chunk Overlap: 10
+Top K: 5
+
+================================================================================
+
+--- Result 1 ---
+Metadata: {'row': 73, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 2 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 151}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 3 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 260}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 4 ---
+Metadata: {'source': './data/pharma_sales.csv', 'row': 21}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
+
+--- Result 5 ---
+Metadata: {'row': 64, 'source': './data/pharma_sales.csv'}
+Content:
+call objectives, meeting outcomes, and action items. Product Overview: WELIREG is used in VHL
+
+--------------------------------------------------------------------------------
