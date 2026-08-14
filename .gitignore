@@ -1,0 +1,9 @@
+chroma_db/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.vscode/
+main.py
+.venv
+uv.lock
+.python-version

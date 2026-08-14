@@ -1,0 +1,7 @@
+Experiment_ID,Chunk_Size,Chunk_Overlap,Documents,Chunks,Area,Observation,Conclusion
+C001,250,20,300,2983,Chunking,Smallest chunk size; highest number of chunks,Smaller chunks produce more chunks
+C002,500,50,300,1538,Chunking,Baseline configuration,Use as baseline for subsequent retrieval experiments
+C003,1000,100,300,900,Chunking,Largest chunk size; lowest number of chunks,Larger chunks produce fewer chunks
+SS001,Similarity Search,k=1,Which product is associated with Renal Cell Carcinoma?,300,1538,1,Row 135 | Score 0.3642,One relevant WELIREG result retrieved,k=1 provides the minimum retrieval context
+SS002,Similarity Search,k=3,Which product is associated with Renal Cell Carcinoma?,300,1538,3,"Rows 85, 135, 186 | Score 0.3642",Three WELIREG records retrieved with identical scores,Additional results did not provide score diversity
+SS003,Similarity Search,k=5,Which product is associated with Renal Cell Carcinoma?,300,1538,5,"Rows 85, 105, 109, 135, 186 | Score 0.3642",Five WELIREG records retrieved with identical scores,Higher k increases context but may introduce redundant information
