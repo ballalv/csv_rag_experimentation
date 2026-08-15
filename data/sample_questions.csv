@@ -1,11 +1,15 @@
-Question_ID,Question,Category,Expected_Answer
-Q001,Which product is associated with Renal Cell Carcinoma?,Product-Relationship,WELIREG
-Q002,What is GARDASIL 9 associated with?,Product-Relationship,HPV Prevention
-Q003,Which business unit does WELIREG belong to?,Business-Unit,Oncology
-Q004,Which business unit does GARDASIL 9 belong to?,Business-Unit,Vaccines
-Q005,Which product is associated with HPV Prevention?,Product-Relationship,GARDASIL 9
-Q006,Which product is associated with Renal Cell Carcinoma?,Retrieval,WELIREG
-Q007,What information is available about WELIREG?,Product-Information,WELIREG
-Q008,What information is available about GARDASIL 9?,Product-Information,GARDASIL 9
-Q009,Which region contains WELIREG transactions?,Transaction,Depends on retrieved records
-Q010,Which sales representative handled the transaction?,Transaction,Depends on retrieved records
+Question_ID,Question,Complexity,Category,Expected_Answer
+Q001,Which sales records describe WELIREG discussions related to renal cell carcinoma in territories where customer engagement or follow-up activity was also mentioned?,Complex,Multi-Criteria-Retrieval,WELIREG records matching the specified conditions
+Q002,"Find records where the sales discussion combines physician engagement, approved clinical information, and follow-up planning for a vaccine product.",Complex,Multi-Criteria-Retrieval,Vaccine records matching the specified conditions
+Q003,Which records indicate regional or territory-level business opportunities while also referring to prescription trends and customer behavior?,Complex,Multi-Criteria-Retrieval,Records matching the specified territory/business conditions
+Q004,Find records where customer discussions include market access or competitor comparison together with compliant promotional or scientific-literature activities.,Complex,Multi-Criteria-Retrieval,Records matching the specified sales-discussion conditions
+Q005,Which product is associated with Renal Cell Carcinoma?,Simple,Product-Relationship,WELIREG
+Q006,What is GARDASIL 9 associated with?,Simple,Product-Relationship,HPV Prevention
+Q007,Which business unit does WELIREG belong to?,Simple,Business-Unit,Oncology
+Q008,Which business unit does GARDASIL 9 belong to?,Simple,Business-Unit,Vaccines
+Q009,Which product is associated with HPV Prevention?,Simple,Product-Relationship,GARDASIL 9
+Q010,Which product is associated with Renal Cell Carcinoma?,Simple,Product-Relationship,WELIREG
+Q011,What information is available about WELIREG?,Simple,Product-Information,"WELIREG-related product, clinical, sales, and territory information"
+Q012,What information is available about GARDASIL 9?,Simple,Product-Information,"GARDASIL 9-related product, clinical, sales, and territory information"
+Q013,Which regions contain WELIREG transactions?,Complex,Transaction-Aggregation,Multiple regions; depends on retrieved WELIREG transaction records
+Q014,Which sales representatives handled WELIREG transactions?,Complex,Transaction-Aggregation,Multiple representatives; depends on retrieved WELIREG transaction records
