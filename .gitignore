@@ -1,9 +1,26 @@
-chroma_db/
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
 .ipynb_checkpoints/
-*.pyc
+
+# VS Code
 .vscode/
+
+# Local vector database
+chroma_db/
+
+# Local-only application file
 main.py
-.venv
-uv.lock
-.python-version
