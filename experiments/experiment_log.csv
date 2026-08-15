@@ -1,7 +1,11 @@
-Experiment_ID,Chunk_Size,Chunk_Overlap,Documents,Chunks,Area,Observation,Conclusion
-C001,250,20,300,2983,Chunking,Smallest chunk size; highest number of chunks,Smaller chunks produce more chunks
-C002,500,50,300,1538,Chunking,Baseline configuration,Use as baseline for subsequent retrieval experiments
-C003,1000,100,300,900,Chunking,Largest chunk size; lowest number of chunks,Larger chunks produce fewer chunks
-SS001,Similarity Search,k=1,Which product is associated with Renal Cell Carcinoma?,300,1538,1,Row 135 | Score 0.3642,One relevant WELIREG result retrieved,k=1 provides the minimum retrieval context
-SS002,Similarity Search,k=3,Which product is associated with Renal Cell Carcinoma?,300,1538,3,"Rows 85, 135, 186 | Score 0.3642",Three WELIREG records retrieved with identical scores,Additional results did not provide score diversity
-SS003,Similarity Search,k=5,Which product is associated with Renal Cell Carcinoma?,300,1538,5,"Rows 85, 105, 109, 135, 186 | Score 0.3642",Five WELIREG records retrieved with identical scores,Higher k increases context but may introduce redundant information
+Experiment_ID,Area,Configuration,Question,Documents,Chunks,Top_K,Results,Observation,Conclusion
+CHK-001,Chunking,chunk_size=250; chunk_overlap=20,,300,2983,,2983.0,Smallest chunk size produced the highest number of chunks.,Higher fragmentation; evaluate only if retrieval benefits from smaller chunks.
+CHK-002,Chunking,chunk_size=500; chunk_overlap=50,,300,1538,,1538.0,"Middle configuration produced 1,538 chunks and is the initial baseline.",Use as the initial baseline for embedding and retrieval experiments.
+CHK-003,Chunking,chunk_size=1000; chunk_overlap=100,,300,900,,900.0,Largest chunk size produced the fewest number of chunks.,Lower fragmentation; evaluate only if larger context improves retrieval.
+EMB-002,Embedding,text-embedding-3-large,Q001-Q004,300,1538,3.0,0.4647,Compared retrieval behavior across four multi-criteria questions.,Review question-level results and retrieved content before selecting the embedding baseline.
+EMB-001,Embedding,text-embedding-3-small,Q001-Q004,300,1538,3.0,0.4314,Compared retrieval behavior across four multi-criteria questions.,Review question-level results and retrieved content before selecting the embedding baseline.
+SS-001,Similarity Search,text-embedding-3-large; 1,Q001-Q004,300,1538,1.0,0.4649,Compared retrieval depth across four multi-criteria questions.,Use the smallest k that provides sufficient relevant coverage without introducing excessive lower-ranked context.
+SS-002,Similarity Search,text-embedding-3-large; 3,Q001-Q004,300,1538,3.0,0.4648,Compared retrieval depth across four multi-criteria questions.,Use the smallest k that provides sufficient relevant coverage without introducing excessive lower-ranked context.
+SS-003,Similarity Search,text-embedding-3-large; 5,Q001-Q004,300,1538,5.0,0.4648,Compared retrieval depth across four multi-criteria questions.,Use the smallest k that provides sufficient relevant coverage without introducing excessive lower-ranked context.
+SS-004,Similarity Search,text-embedding-3-large; 10,Q001-Q004,300,1538,10.0,0.4647,Compared retrieval depth across four multi-criteria questions.,Use the smallest k that provides sufficient relevant coverage without introducing excessive lower-ranked context.
+RAG-001,RAG / LCEL,text-embedding-3-large + similarity search k=3 + gpt-4.1-mini,Q001-Q004,300,1538,3.0,4 RAG answers generated,End-to-end grounded RAG pipeline evaluated across four multi-criteria business questions.,"Baseline RAG pipeline successfully connects retrieval, context construction, grounded prompting and LLM generation."

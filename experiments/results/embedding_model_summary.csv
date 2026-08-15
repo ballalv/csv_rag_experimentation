@@ -1,0 +1,3 @@
+Experiment_ID,Model,Average_Query_Score,Average_Top1_Score,Difference_vs_EMB001_%
+EMB-002,text-embedding-3-large,0.46472810129177794,0.4647409033970131,7.727089123656613
+EMB-001,text-embedding-3-small,0.43139390943565814,0.4313946856401182,0.0
